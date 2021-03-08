@@ -5,5 +5,6 @@ int main()
     int *badptr = new int[10];
 
 	cout << "everything worked." << endl;
+	cout << "Hallelujah" << endl;
 	delete [] badptr;
 }
